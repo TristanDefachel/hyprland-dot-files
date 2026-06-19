@@ -1,0 +1,19 @@
+# Ignore everything except the files you want.
+*
+!.gitignore
+!waybar/
+!waybar/**
+!hypr/
+!hypr/**
+!wlogout/
+!wlogout/**
+
+# --- Global security ---
+*.key
+*.pem
+*.secret
+.env
+.password*
+
+# --- Cache ---
+.cache/
