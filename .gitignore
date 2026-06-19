@@ -1,5 +1,6 @@
 # Ignore everything except the files you want.
 *
+!README.md
 !.gitignore
 !waybar/
 !waybar/**
