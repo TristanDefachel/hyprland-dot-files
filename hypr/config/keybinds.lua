@@ -2,7 +2,7 @@
 ---- KEYBINDINGS ----
 ---------------------
 
-local globalVariables = require('Trist4nConfig/GlobalVariables')
+local globalVariables = require('config/global-variables')
 local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- See https://wiki.hypr.land/Configuring/Basics/Binds/ for more
@@ -18,7 +18,7 @@ hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + " .. globalVariables.keyboard.f3, hl.dsp.exec_cmd("flameshot gui"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("loginctl lock-session"))
 hl.bind(mainMod .. " + ALT + L ", hl.dsp.exec_cmd("loginctl lock-session && sleep 2 && systemctl suspend"))
-hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd("sh ~/.config/hypr/Trist4nScript/theme-switch.sh"))
+hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd("sh ~/.config/hypr/scripts/theme-switch.sh"))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))

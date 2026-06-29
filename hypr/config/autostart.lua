@@ -3,7 +3,7 @@
 -------------------
 
 -- See https://wiki.hypr.land/Configuring/Basics/Autostart/
-local globalVariables = require('Trist4nConfig/GlobalVariables')
+local globalVariables = require('config/global-variables')
 
 hl.on("hyprland.start", function()
     hl.exec_cmd("nm-applet")
