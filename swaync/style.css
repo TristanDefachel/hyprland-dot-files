@@ -1,0 +1,26 @@
+@import url("../../.cache/wal/colors.css");
+
+.control-center {
+  background: var(--background);
+}
+
+.notification-group {
+  background: var(--color2);
+  border-radius: 12px;
+  padding: 8px;
+}
+
+.widget-buttons-grid {
+  padding-bottom: 24px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: 2px solid;
+  border-image: linear-gradient(
+      to right,
+      transparent 10%,
+      var(--color15) 10%,
+      var(--color15) 90%,
+      transparent 90%
+    )
+    1;
+}
