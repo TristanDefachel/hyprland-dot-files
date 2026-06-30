@@ -193,7 +193,7 @@
     },
     "custom/notification": {
         "tooltip": true,
-        "format": "{icon}",
+        "format": "{icon}{text}",
         "format-icons": {
             "notification": "󱅫",
             "none": "󰂜",
@@ -206,7 +206,7 @@
         },
         "return-type": "json",
         "exec-if": "which swaync-client",
-        "exec": "~/.config/waybar/scripts/swaync-watch.sh",
+        "exec": "~/.config/waybar/scripts/swaync-watcher.sh",
         "on-click": "swaync-client -t -sw",
         "on-click-right": "swaync-client -d -sw",
         "escape": true
