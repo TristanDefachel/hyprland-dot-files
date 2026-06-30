@@ -29,13 +29,20 @@
         }
     },
     "mpris": {
-        "format": "{artist} - {title}",
-        "tooltip-format": "{album}",
-        "format-paused": " {artist} - {title}",
+        "format": "{player_icon} {title} - {artist}",
+        "format-paused": "{status_icon} {title} - {artist}",
+        "tooltip-format": "{dynamic}",
         "on-click": "playerctl play-pause",
         "on-scroll-up": "playerctl previous",
         "on-scroll-down": "playerctl next",
-        "max-length": 45
+        "max-length": 45,
+        "player-icons": {
+            "default": "",
+            "firefox": ""
+        },
+        "status-icons": {
+            "paused": ""
+        }
     },
     "cpu": {
         "interval": 30,
