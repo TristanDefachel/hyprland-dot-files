@@ -42,7 +42,7 @@
             "█"
         ],
         "actions": {
-            "on-click-right": "mode"
+            "on-click": "mode"
         }
     },
     "mpris": {
