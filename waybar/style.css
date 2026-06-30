@@ -34,10 +34,9 @@ label {
   margin-left: 8px;
 }
 
-/* Icon Center hack */
 #custom-power,
 label#custom-toolbox {
-  padding-right: 11px;
+  padding-right: 11px; /* Icon Center hack */
 }
 /* END Global */
 
@@ -74,20 +73,13 @@ label#custom-toolbox {
 /* END Modules Left */
 
 /* START Modules Center */
-#group-toolbox {
-  margin-right: 16px;
-}
-#group-toolbox label {
-  margin-left: 8px;
-}
-
 #clock {
   font-size: 18px;
 }
 
 #custom-notification {
-  font-size: 20px;
-  padding-right: 11px;
+  font-size: 19px;
+  padding-right: 11px; /* Icon Center hack */
   margin-left: 16px;
   color: @color2;
 }
@@ -114,5 +106,11 @@ label#custom-toolbox {
 /* END Modules Center */
 
 /* START Modules Right */
+#bluetooth {
+  margin-left: 16px;
+}
 
+#network {
+  margin-right: 8px;
+}
 /* END Modules Right */

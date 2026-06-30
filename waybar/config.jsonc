@@ -8,7 +8,6 @@
         "mpris"
     ],
     "modules-center": [
-        "group/group-toolbox",
         "clock",
         "custom/notification"
     ],
@@ -18,6 +17,7 @@
         "bluetooth",
         "network",
         "battery",
+        "group/group-toolbox",
         "custom/power"
     ],
     "group/group-toolbox": {
