@@ -1,7 +1,7 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=29&pause=1000&color=02A0F7&width=435&lines=Hyprland+Dot+files;By+Trist4n)](https://git.io/typing-svg)
 
-![](https://img.shields.io/github/last-commit/tristandefachel/hyprland-dotfiles?&style=for-the-badge&labelColor=252733)
-[![](https://img.shields.io/github/repo-size/tristandefachel/hyprland-dotfiles?color=%23DDB&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=252733)](https://github.com/TristanDefachel/Hyprland-DotFiles)
+![](https://img.shields.io/github/last-commit/TristanDefachel/hyprland-dot-files?&style=for-the-badge&labelColor=252733)
+[![](https://img.shields.io/github/repo-size/TristanDefachel/hyprland-dot-files?color=%23DDB&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=252733)](https://github.com/TristanDefachel/Hyprland-dot-files)
 
 # About
 Here is my custom configuration for the Hyprland environment :)
