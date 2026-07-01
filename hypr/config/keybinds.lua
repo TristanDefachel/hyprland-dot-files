@@ -16,8 +16,9 @@ hl.bind(mainMod .. " + SPACE", hl.dsp.exec_cmd(globalVariables.menu))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
 hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))    -- dwindle only
 hl.bind(mainMod .. " + " .. globalVariables.keyboard.f3, hl.dsp.exec_cmd("flameshot gui"))
+hl.bind(mainMod .. " + SHIFT + " .. globalVariables.keyboard.f3, hl.dsp.exec_cmd("flameshot full --path ~/Pictures/Screenshots"))
 hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("loginctl lock-session"))
-hl.bind(mainMod .. " + ALT + L ", hl.dsp.exec_cmd("loginctl lock-session && sleep 2 && systemctl suspend"))
+hl.bind(mainMod .. " + ALT + L", hl.dsp.exec_cmd("loginctl lock-session && sleep 2 && systemctl suspend"))
 hl.bind(mainMod .. " + SHIFT + T", hl.dsp.exec_cmd("sh ~/.config/hypr/scripts/theme-switch.sh"))
 
 -- Move focus with mainMod + arrow keys
