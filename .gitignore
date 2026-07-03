@@ -12,6 +12,8 @@
 !swaync/**
 !rofi/
 !rofi/**
+!fastfetch/
+!fastfetch/**
 
 # --- Global security ---
 *.key
