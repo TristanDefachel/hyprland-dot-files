@@ -3,7 +3,6 @@
     "logo": {
         "type": "file",
         "source": "/home/tristan/.config/fastfetch/ascii.txt",
-        "width": 30
     },
     "modules": [
         "title",
