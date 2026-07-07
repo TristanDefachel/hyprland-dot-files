@@ -67,8 +67,14 @@ label#custom-toolbox {
   border-radius: 4px 8px 4px 4px;
 }
 
+#cava {
+  border-radius: 0 4px 4px 0;
+}
+
 #mpris {
   margin-left: 24px;
+  margin-right: 0;
+  border-radius: 4px 0 0 4px;
 }
 /* END Modules Left */
 

@@ -5,14 +5,14 @@
     "margin-right": 10,
     "modules-left": [
         "hyprland/workspaces",
-        "mpris"
+        "mpris",
+        "cava"
     ],
     "modules-center": [
         "clock",
         "custom/notification"
     ],
     "modules-right": [
-        "cava",
         "group/audio",
         "bluetooth",
         "network",
