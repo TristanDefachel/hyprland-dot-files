@@ -17,7 +17,7 @@
             "title<.*github.*>": "",
             "code|vscodium": " ",
             "class<kitty>": "󰆍",
-            "class<thunar|dolphin>": "",
+            "class<thunar|Dolphin>": "",
             "class<discord>": " ",
             "class<vlc>": "󰕼 ",
             "nwg-look": "󰒓",
@@ -30,6 +30,7 @@
     },
     "cava": {
         "cava_config": "$XDG_CONFIG_HOME/waybar/cava.conf",
+        "hide_on_silence": true,
         "input_delay": 2,
         "format-icons": [
             "▁",
@@ -71,7 +72,7 @@
         }
     },
     "load": {
-        "interval": 30,
+        "interval": 30,d
         "format": " {load1}%",
         "cursor": true
     },
