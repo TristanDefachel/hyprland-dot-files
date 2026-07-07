@@ -72,7 +72,7 @@
         }
     },
     "load": {
-        "interval": 30,d
+        "interval": 30,
         "format": " {load1}%",
         "cursor": true
     },
